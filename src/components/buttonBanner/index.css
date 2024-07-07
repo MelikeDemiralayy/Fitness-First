@@ -1,0 +1,55 @@
+.block-buttons-banner {
+    margin-bottom: 20px;
+  }
+  
+  .block-buttons-banner .cw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block-buttons-banner .btn-chevron {
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #e02942;
+    border-color: #e02942;
+    width: 789px;
+    height: 154px;
+    border-radius:0;
+    overflow: hidden;
+    transition: background-color 0.3s, border-color 0.3s;
+    
+  }
+
+  .block-buttons-banner .btn-chevron:hover {
+    background-color: #A80000; 
+    border-color: #A80000;
+}
+  
+  .block-buttons-banner .btn-chevron .btn-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .block-buttons-banner .btn-inner h3 {
+    margin: 0;
+  }
+  
+  .block-buttons-banner .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+    width: 789px;
+    height: 154px;
+    border-radius: 0;
+    transition: background-color 0.3s, border-color 0.3s;
+    
+  }
+
+  .block-buttons-banner .btn-secondary:hover {
+    background-color: #4d5359; 
+    border-color: #4d5359; }

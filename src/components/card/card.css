@@ -1,0 +1,28 @@
+.benefit-section{
+    background-color: #EDEDEC; 
+    padding: 20px;
+ 
+}
+
+.benefit-section .card{
+    margin-top: 40px;
+    background-color: #EDEDEC; 
+    border-style: none;
+}
+
+.card-img-container {
+    width: 628px;
+    height: 471px;
+    overflow: hidden; 
+    position: relative;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-img:hover {
+    transform: scale(1.05); 
+  }
