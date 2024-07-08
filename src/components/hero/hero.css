@@ -1,6 +1,38 @@
 .hero-card{
     border-radius: 0 !important;
+    position: relative;
+    background-color: #000;
+    color: #fff;
 }
 .card-img{
     border-radius: 0;
+    height: 100%;
+    
 }
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px; 
+}
+
+.title{
+    font-family:fantasy; 
+    font-size: 5rem; 
+    text-align: left;
+}
+
+
+
+  .text {
+    font-family: fantasy; 
+    font-size: 2rem; 
+    text-align: left;
+  }
+  
+  .text-extra-extra-large {
+    font-size: 20px;
+  }
+  
