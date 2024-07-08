@@ -33,7 +33,7 @@ function JoinForm() {
         aria-label="Close"
         className="close-button"
         onClick={handleClose}
-      />{" "}
+      />
       <div className="form-wrapper">
         <Form noValidate validated={validated} onSubmit={handleSubmit}>
           <Row className="mb-3">
