@@ -12,15 +12,19 @@ function BenefitCard() {
   return (
     <div className="benefit-section">
       <Container>
-        <Row className='gx-5'>
+        <Row className="gx-5">
           {benefitCardData.map((card) => (
             <Col md={6} key={card.id}>
-              <Card className='px-3 py-2' style={{ width: '660px', height: '650px' }}>
+              <Card
+                className="px-3 py-2"
+                style={{ width: "660px", height: "650px" }}
+              >
                 <div className="card-img-container">
-                  <Card.Img 
-                    className="card-img" 
-                    variant="top" 
-                    src={card.imgSrc} 
+                  <Card.Img
+                    className="card-img"
+                    variant="top"
+                    src={card.imgSrc}
+                    loading="lazy"
                   />
                 </div>
                 <Card.Body>
