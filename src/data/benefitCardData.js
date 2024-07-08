@@ -29,7 +29,7 @@ const benefitCardData = [
     title: "EQUIPMENT",
     text: "New equipment may seem a little intimidating if you haven't done it before - we're here to help show you how to get the best out our equipment.",
     imgSrc:
-      "http://gimnasiofitness.com.tr/wp-content/uploads/2024/05/HakkimizdaDambil.jpg",
+      "https://www.fitnessfirst.co.uk/media/vdben2nh/fitnessfirst-w21-wigan-interiors-335-2.jpg?width=1272&height=954&format=webp&quality=80&v=1d865dc51bed120",
     btnText: "Explore Equipment",
   },
 ];

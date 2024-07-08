@@ -1,5 +1,3 @@
-// src/pages/join pages/JoinPage.js
-
 import JoinForm from "../../components/form/joinForm";
 
 function JoinPage() {

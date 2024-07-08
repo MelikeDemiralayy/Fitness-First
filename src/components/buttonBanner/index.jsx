@@ -9,6 +9,10 @@ function ButtonBanner() {
     navigate("/join");
   };
 
+  const handleBookTourClick = () => {
+    navigate("/visit");
+  };
+
   return (
     <div className="block-buttons-banner">
       <Row>
@@ -30,9 +34,9 @@ function ButtonBanner() {
         <Col className="col-6 m-0 p-0">
           <div className="cw">
             <Button
-              href="/visit-us"
               className="btn-chevron btn-secondary"
               title="Visit Us"
+              onClick={handleBookTourClick}
             >
               <div className="btn-inner">
                 <h3>Book a tour</h3>

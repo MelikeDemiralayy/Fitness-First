@@ -1,0 +1,73 @@
+.visit-us-container {
+    height: 100vh;
+    background-image: url('https://www.fitnessfirst.co.uk/media/eytjmzch/fitnessfirst_interiors-tcr_064.jpg?width=1920&height=1080&format=webp&quality=80&v=1d8144462a14f20');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    justify-content: space-between; 
+  }
+  
+  .visit-us-content {
+    background: rgba(0, 0, 0, 0.6); 
+    border-radius: 8px;
+    max-width: 800px;
+    margin-top: 100px; 
+    padding: 20px;
+  }
+  
+  .visit-us-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .visit-us-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .info-section {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+    width: 100%;
+  }
+  
+  .info-section ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+  }
+  
+  .info-section ul li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    position: relative; 
+    padding-left: 10px; 
+    line-height: 1.5; 
+  }
+  
+  .info-section ul li::before {
+    content: '•'; 
+    color: #e02942;
+    font-size: 2rem; 
+    position: absolute; 
+    left: 10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+  }
+  .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #E7E6E7;
+    border: none;
+    font-size: 1.5rem;
+    color: #000;
+    cursor: pointer;
+  }
+  
