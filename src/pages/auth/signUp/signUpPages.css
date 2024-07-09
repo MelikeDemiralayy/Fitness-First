@@ -1,0 +1,64 @@
+.form-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://www.fitnessfirst.co.uk/media/gonilb3a/fitnessfirst-w21-bakerst-1055.jpg?width=636&height=357&format=webp&quality=80&v=1d8226db5d3dcd0');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;  
+}
+
+.form-wrapper {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  max-width: 700px;
+  width: 100%;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #E7E6E7;
+  border: none;
+  font-size: 1.5rem;
+  color: #000;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: #e02942;
+}
+
+.form-container h2 {
+  position: absolute;
+  top: 120px;
+  font-size: 3rem;
+  color: #E7E6E7;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.invalid-feedback {
+  display: block;
+}
+
+button[type="submit"] {
+  background-color: #e02942;
+  border: none;
+}
+
+button[type="submit"]:hover {
+  background-color: #d6203d;
+}
