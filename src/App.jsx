@@ -5,6 +5,8 @@ import JoinPage from "./pages/joinPage";
 import VisitUsPage from "./pages/visit";
 import Layout from "./components/layout/layout";
 import ClassPage from "./pages/classPage";
+import Blog from "./pages/blog";
+import DetailCard from "./components/card/detailCard";
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
           <Route path="/join" element={<JoinPage />} />
           <Route path="/visit" element={<VisitUsPage />} />
           <Route path="/classes" element={<ClassPage />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/post-:id" element={<DetailCard />} />
         </Routes>
       </Layout>
     </Router>

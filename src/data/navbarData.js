@@ -5,7 +5,7 @@ const navbarData = {
     { href: "#about", text: "About" },
     { href: "/join", text: "Join Now" },
     { href: "/visit", text: "Visit Us" },
-    { href: "#contact", text: "Blog" },
+    { href: "/blog", text: "Blog" },
   ],
 };
   

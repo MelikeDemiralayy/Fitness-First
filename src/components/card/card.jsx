@@ -1,19 +1,22 @@
+import PropTypes from "prop-types";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
-import "../../data/benefitCardData";
 import "./card.css";
-import benefitCardData from "../../data/benefitCardData";
 
-function BenefitCard() {
+function BenefitCard({ cardData }) {
+  if (!cardData) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <div className="benefit-section">
       <Container>
         <Row className="gx-5">
-          {benefitCardData.map((card) => (
+          {cardData.map((card) => (
             <Col md={6} key={card.id}>
               <Card
                 className="px-3 py-2"
@@ -42,5 +45,9 @@ function BenefitCard() {
     </div>
   );
 }
+
+BenefitCard.propTypes = {
+  cardData: PropTypes.array.isRequired,
+};
 
 export default BenefitCard;
