@@ -1,12 +1,12 @@
-
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import { Link } from "react-router-dom";
 import "../../data/benefitCardData";
-import "./card.css"
-import benefitCardData from '../../data/benefitCardData';
+import "./card.css";
+import benefitCardData from "../../data/benefitCardData";
 
 function BenefitCard() {
   return (
@@ -30,7 +30,9 @@ function BenefitCard() {
                 <Card.Body>
                   <Card.Title>{card.title}</Card.Title>
                   <Card.Text>{card.text}</Card.Text>
-                  <Button variant="danger">{card.btnText}</Button>
+                  <Link to={card.link}>
+                    <Button variant="danger">{card.btnText}</Button>
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>

@@ -14,6 +14,7 @@ const benefitCardData = [
     imgSrc:
       "https://www.fitnessfirst.co.uk/media/u0ihxl24/image2.jpg?width=636&height=477&format=webp&quality=80&v=1da34dba971a350",
     btnText: "Discover Classes",
+    link: "/classes",
   },
 
   {

@@ -4,6 +4,7 @@ import Home from "./pages/home/home";
 import JoinPage from "./pages/joinPage";
 import VisitUsPage from "./pages/visit";
 import Layout from "./components/layout/layout";
+import ClassPage from "./pages/classPage";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/join" element={<JoinPage />} />
           <Route path="/visit" element={<VisitUsPage />} />
+          <Route path="/classes" element={<ClassPage />} />
         </Routes>
       </Layout>
     </Router>
