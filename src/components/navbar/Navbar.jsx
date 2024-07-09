@@ -9,7 +9,7 @@ import "./navbar.css"
 
 function navbar() {
   if (!navbarData || !navbarData.links) {
-    return <div>Loading...</div>; // Veriler yüklenene kadar yedek içerik
+    return <div>Loading...</div>; 
   }
 
   return (
