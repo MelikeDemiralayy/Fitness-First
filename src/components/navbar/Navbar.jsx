@@ -5,6 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import navbarData from "../../data/navbarData";
 import "./navbar.css";
+import { FaSearch } from "react-icons/fa";
 
 function NavbarComponent() {
   if (!navbarData || !navbarData.links) {
@@ -14,7 +15,7 @@ function NavbarComponent() {
   return (
     <Navbar expand="lg" className="nav">
       <Container fluid>
-        <Navbar.Brand href="#">{navbarData.brand}</Navbar.Brand>
+        <Navbar.Brand href="#">Fitness First</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -46,7 +47,9 @@ function NavbarComponent() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-secondary">Search</Button>
+            <Button variant="outline-secondary" className="search-button">
+              <FaSearch />
+            </Button>
           </Form>
         </Navbar.Collapse>
       </Container>
