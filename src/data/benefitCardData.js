@@ -6,6 +6,7 @@ const benefitCardData = [
     imgSrc:
       "https://www.fitnessfirst.co.uk/media/2rooxlu1/image1.jpg?width=636&height=477&format=webp&quality=80&v=1da34dba9933510",
     btnText: "Find a Gym",
+    link: "/findgym",
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ const benefitCardData = [
     imgSrc:
       "https://www.fitnessfirst.co.uk/media/vgkpgnhh/fitnessfirst_170720213928.jpg?width=636&height=357&format=webp&quality=80&v=1d8226daafcbf20",
     btnText: "Explore Workouts",
+    link: "/workouts",
   },
   {
     id: 4,
@@ -32,6 +34,7 @@ const benefitCardData = [
     imgSrc:
       "https://www.fitnessfirst.co.uk/media/vdben2nh/fitnessfirst-w21-wigan-interiors-335-2.jpg?width=1272&height=954&format=webp&quality=80&v=1d865dc51bed120",
     btnText: "Explore Equipment",
+    link: "/equipment",
   },
 ];
   

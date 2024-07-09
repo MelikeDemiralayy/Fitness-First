@@ -1,0 +1,42 @@
+.blog {
+    text-align: center; 
+  }
+  
+  .blog h1 {
+    margin-bottom: 20px;
+    margin-top: 50px; 
+    color: #6C757D;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+
+.benefit-section {
+    background-color: #ffffff; 
+    padding: 20px;
+  }
+  
+  .benefit-section .card {
+    margin-top: 40px;
+    background-color: #ffffff; 
+  }
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #dc3545; 
+    border-color: #dc3545;
+  }
+  
+  .pagination .page-link {
+    color:white; 
+  }
+  
+  .pagination .page-link:hover {
+    background-color: #c82333; 
+    border-color: #c82333;
+  }
+  
+  
