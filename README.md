@@ -96,3 +96,5 @@ Bu proje, temel işlevselliği sağlamaktadır; ancak daha da geliştirilmesi ge
 - hataların düzeltilmesi ve uygulamanın iyileştirilmesi
 - ana sayfa kısmına bazı bölümlerin eklenmesi
 
+### Proje Linki:
+Projeyi canlı olarak görmek için [bu bağlantıyı](https://fitness-project-phi.vercel.app) kullanabilirsiniz.
